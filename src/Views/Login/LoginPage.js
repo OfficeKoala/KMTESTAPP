@@ -1,5 +1,5 @@
 import React from "react";
-import "./LoginPage.css";
+import "../Login/LoginPage.css";
 import CurrentContextForm from "../../FormsConfig/CurrentContextForm";
 import FormMaker from "./../../FormsConfig/FormMaker";
 

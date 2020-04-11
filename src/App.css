@@ -9,19 +9,16 @@
   justify-content: center;
   /* background:var(--ThemeColor); */
   /*url("./Assets//back.jpg");*/
-background: var(--AppTheme); 
-border-top:8px solid var(--GreenSeaColor);
+  background: var(--AppTheme);
+  border-top: 8px solid var(--GreenSeaColor);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- filter:var(--ThemeNormal);
+  filter: var(--ThemeNormal);
 }
 
 /* App Background */
-body {
-  
-}
 
 .App-logo {
   height: 40vmin;
@@ -69,11 +66,4 @@ body {
 /* RESPONSIVEWEB ON PHONE VIEW */
 
 @media only screen and (max-width: 600px) {
-  .gifHolder {
-    
-  }
-
-
-
-  body{background:white;}
 }
