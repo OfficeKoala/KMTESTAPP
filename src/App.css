@@ -1,5 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Sen&display=swap");
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  /* background:var(--ThemeColor); */
+  /*url("./Assets//back.jpg");*/
+background: var(--AppTheme); 
+border-top:8px solid var(--GreenSeaColor);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ filter:var(--ThemeNormal);
+}
+
+/* App Background */
+body {
+  
 }
 
 .App-logo {
@@ -35,4 +56,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Error Message For Validation Fails */
+.ValidationError {
+  color: var(--ThemeColor);
+  margin: 0px;
+  font-size: 0.7em;
+  font-family: var(--FONT);
+}
+
+/* RESPONSIVEWEB ON PHONE VIEW */
+
+@media only screen and (max-width: 600px) {
+  .gifHolder {
+    
+  }
+
+
+
+  body{background:white;}
 }

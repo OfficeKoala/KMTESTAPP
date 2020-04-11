@@ -1,0 +1,188 @@
+/* LoginPaper Styling */
+.LoginContainer{
+  margin-top:-50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+
+.LoginPaper {
+  height: 350px;
+  width: 300px;
+  background: var(--PaperColor);
+  background-repeat: no-repeat;
+  box-shadow:  
+  /* The top layer shadow */ 0 -1px 1px rgba(0, 0, 0, 0.15),
+    /* The second layer */ 0 -10px 0 -5px #eee,
+    /* The second layer shadow */ 0 -10px 1px -4px rgba(0, 0, 0, 0.15),
+    /* The third layer */ 0 -20px 0 -10px #eee,
+    /* The third layer shadow */ 0 -20px 1px -9px rgba(0, 0, 0, 0.15);
+  /* Padding for demo purposes */
+  padding: 15px;
+  border-radius: var(--BORDER);
+  outline: 1px solid var(--Pencil);
+  outline-offset: -15px;
+}
+
+.LoginPaperBelow{
+background:var(--PaperColor);
+padding:0px 15px 15px 15px ;
+height:70px;
+width:300px;
+outline:1px double var(--Pencil);
+outline-offset: -15px;
+margin-top:15px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.SignUpText{
+margin-top:15px;
+font-family:var(--FONT);
+font-size:0.8em;
+}
+.SignupLink{
+  margin-top:15px;
+  cursor: pointer; 
+  font-weight:400;
+  font-size:0.8em;
+  font-family:var(--FONT);
+}
+
+.Footer{
+  background: var(--Raven);
+  height:250px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+}
+.pxt23T35{
+  font-size:0.75em;
+  font-family: var(--FONT);
+}
+
+.gifHolder {
+  height:100px;
+  width:100px;
+  /* display:none; */
+  background: url("../../Assets//Testlogo.png") no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+
+}
+
+.LoginHeader {
+  height: 30px;
+  background: var(--PaperColor);
+  color: var(--Raven);
+  border-radius: var(--Raven);
+  text-align: center;
+  font-weight: 600;
+  margin: 0 auto;
+  font-family: var(--FONT);
+  padding: 15px;
+  /* outline: 1px solid var(--Pencil);
+outline-offset: -5px; */
+}
+
+.FieldFormer {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+/* BUTTON STYLE LOGIN */
+.LoginSubmitButton {
+  padding: 5px;
+  color: var(--PaperColor);
+  font-family: var(--FONT);
+  font-size: 0.85em;
+  font-weight: 900;
+  width: 240px;
+  border:none;
+  border-top: 2px solid var(--GreenSeaColor);
+  background: var(--AppTheme);
+  border-radius: 4px;
+
+}
+
+.emailField {
+  width: var(--CommonWidth);
+  border: 1px solid var(--Pencil);
+  background: var(--PaperColor);
+  padding: var(--ButtonPadding);
+  font-size: var(--PlaceholderSize);
+  border-radius: var(--RadiusTextField);
+}
+.passwordField {
+  width: var(--CommonWidth);
+  border: 1px solid var(--Pencil);
+  background: var(--PaperColor);
+  padding: var(--ButtonPadding);
+  font-size: var(--PlaceholderSize);
+  border-radius: var(--RadiusTextField);
+}
+
+.emailField:focus {
+  border: none;
+}
+
+
+.Liner{
+  margin-top:10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.CenterText{
+  color:var(--Pencil);
+  font-size:0.8em;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.separatorLine{
+  width:90px;
+  margin:0px;  
+}
+.separatorLine2{
+  width:90px;
+  margin:0px;  
+}
+
+
+.sprite{
+  background:url("../../Assets//SpriteSheet.png") no-repeat;;
+}
+
+.FacebookLogIn{
+  padding:5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bolder;
+  color:var(--FBCOLOR);
+}
+
+.FacebookLogIn:hover{
+  cursor: pointer;
+}
+
+
+.fbIcon {
+  width: 30px;/* Icon width */
+  height: 30px;/* Icon height */
+  display: inline-block;/* Display icon as inline block */
+  background-position: -192px -108px; /* Icon background position in sprite */
+
+}
+
+.fbLogText{
+  font-size:0.8em;
+  font-family:var(--FONT);
+}
+

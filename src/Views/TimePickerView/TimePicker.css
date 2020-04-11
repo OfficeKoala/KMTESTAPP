@@ -1,0 +1,44 @@
+.MuiToolbar-regular{
+    background:var(--CalendarTopTitle) !important;
+    border-top:2px solid var(--GreenSeaColor);
+    font-family:var(--FONT)  !important;
+}
+.MuiTypography-root{
+    font-size:1.1em !important;
+    font-family:var(--FONT)  !important;
+    text-decoration: 3px solid var(--GreenSeaColor) underline;
+    color:green ;
+
+}
+
+.MuiSvgIcon-root{
+ color:var(--CalendarTopTitle); 
+}
+
+.MuiPickersClockNumber-clockNumberSelected{
+    color:var(--PaperColor);
+    background:var(--CalendarTopTitle) !important; 
+    
+}
+
+.MuiButton-label{
+    padding:5px;
+    background:var(--CalendarTopTitle);
+    color:var(--PaperColor);
+    font-family:var(--FONT);
+    border-radius:3px;
+    border-top:2px solid var(--CalendarTopTitle);  
+}
+
+.MuiButton-label:hover{
+
+    border-top:2px solid var(--GreenSeaColor);
+}
+.MuiButton-label:focus{
+    border-top:2px solid var(--GreenSeaColor);
+}
+
+.MuiTextField-root>*{
+font-family:var(--FONT) !important; 
+font-weight:bolder;
+}

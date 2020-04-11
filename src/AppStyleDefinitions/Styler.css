@@ -1,0 +1,36 @@
+:root {
+    --LoginPaper-bg:#00b2df;
+    --ThemeNightMode:invert(1);
+    --ThemeNormal:none;
+    --ThemeColor:#f0595a;
+    --AppTheme:#2c3e50;
+    --Raven:#031214;
+    --PaperColor:white;
+    --BORDER:2px 2px 4px 4px;
+    --FONT:'Sen', sans-serif;
+    --Pencil:  #9dacba;
+    --PlaceholderSize:0.75em;
+    /* #ccdeee; */
+
+    /* LOGIN-PAGE VARIABLES */
+    --RadiusTextField:2px;
+    --ButtonPadding:8px;
+    --CommonWidth:220px;
+    --ButtonColor:#0095f6;
+    --FBCOLOR:#3b5998;
+
+
+    /* CALENDAR STYLES  */
+      --CalendarHoverColor:none;
+      --CalendarTopTitle:#2c3e50;
+      --TopTitleHover:#34495e;
+      --GreenSeaColor:#16a085;
+
+
+  }
+
+
+
+
+
+ 
