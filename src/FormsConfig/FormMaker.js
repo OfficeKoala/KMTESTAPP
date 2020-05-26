@@ -1,8 +1,10 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import Dogs from "./../Controllers/DataFetcher"
 const FormMaker = props => {
-  const Fields = props.castLoginForm.fields;
-  console.log("+++++++", props.castLoginForm);
+  const Fields = props.castForm.fields;
+  console.log("+++++++", props.castForm);
+  console.log("+++++++", props.castForm.formName);
   return (
     <Formik initialValues={{ email: "", password: "" }} validate={values => FormValidator(values)} onSubmit={(values, { setSubmitting }) =>FormSubmit(values, { setSubmitting }) }>
       {({ isSubmitting }) => (
@@ -11,16 +13,18 @@ const FormMaker = props => {
             return (
               <React.Fragment>
                 <div className="FieldFormer">
-                <Field className={field.type+"Field"} type={field.type} name={field.name} placeholder={field.label}/>
+                <div className={field.name+"Field"}><span className="PaymentLabels">{field.name}</span><Field  type={field.type} name={field.name} placeholder={field.label}/></div>
                 <ErrorMessage className="ValidationError" name={field.name} component="p" />
                 </div>
               </React.Fragment>
             );
           })}
            <div className="MainButtonHolder">
-          <button className={props.castLoginForm.formName+"SubmitButton"} type="submit" disabled={isSubmitting}>
-            {props.castLoginForm.submitButtonText}
-          </button>
+       {
+         props.submitButtonText?   <button className={props.castForm.formName+"SubmitButton"} type="submit" disabled={isSubmitting}>
+         {props.castForm.submitButtonText}
+       </button>:""
+       }
           </div> 
         </Form>
       )}
@@ -43,13 +47,16 @@ const FormValidator = values => {
 };
 
 const FormSubmit=(values, { setSubmitting })=>{
-    {
+
+      console.log("_____values", values);
         setTimeout(() => {
           alert(JSON.stringify(values, null, 2));
           setSubmitting(true);
+          
         }, 400);
-        console.log("_____values", values);
-      }
+       return <Dogs  val={values} />
+        
+    
 }
 
 

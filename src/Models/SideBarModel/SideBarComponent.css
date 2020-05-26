@@ -1,0 +1,60 @@
+
+.Toggler{
+ margin-top:4px;
+ padding:10px;
+ position:fixed;
+ color:var(--PaperColor);
+ font-family:var(--FONT);
+}
+.Toggler>span{
+margin-right:5px;
+font-family:var(--FONT);
+}
+
+.rs-sidenav{
+    background:var(--AppTheme) !important;
+    color:var(--PaperColor) !important;
+    font-family:var(--FONT);
+}
+
+.rs-dropdown-item-content{
+    color:var(--PaperColor) !important;
+    font-family:var(--FONT);
+}
+.rs-dropdown-item-content:active{
+    color: var(--PaperColor) !important;
+    background: var(--GreenSeaColor) !important;
+}
+
+.rs-dropdown-item-content:focus{
+    color: var(--PaperColor) !important;
+    background: var(--GreenSeaColor) !important;
+}
+
+.rs-nav-item-content{
+    color:var(--PaperColor) !important;
+    font-family:var(--FONT);
+}
+
+.rs-nav-item-content:focus{
+
+ color:var(--GreenSeaColor) !important;   
+}
+
+.rs-dropdown-menu-toggle{
+    color:var(--PaperColor) !important;
+    font-family:var(--FONT);
+}
+.rs-dropdown-toggle{
+    color:var(--PaperColor) !important;
+    font-family:var(--FONT);
+}
+
+.rs-dropdown-toggle:focus{
+    color:var(--GreenSeaColor) !important;   
+}
+
+.rs-btn-toggle-checked{
+background: var(--GreenSeaColor) !important;
+font-family:var(--FONT);
+}

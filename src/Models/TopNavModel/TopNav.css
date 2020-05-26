@@ -1,0 +1,7 @@
+.TopNavBar{
+    background: var(--AppTheme);
+    position:fixed;
+    height:55px;
+    width:100%;
+    color:var(--PaperColor)
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Calendar from 'react-calendar';
 import ModalComponent from "./../ModalView/Modal"
+
  
 class CalendarComponent extends Component {
   state = {

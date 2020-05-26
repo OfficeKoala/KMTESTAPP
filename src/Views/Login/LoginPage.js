@@ -22,11 +22,11 @@ const LoginPage = () => {
   return (
     <React.Fragment>
       <div className="LoginContainer">
-      <div className="gifHolder"></div>
+      {/* <div className="gifHolder"></div> */}
       <section className="LoginPaper">
         <header className="LoginHeader"></header>
         <div className="LoginBox">
-        <FormMaker castLoginForm={config.LoginForm} />
+        <FormMaker castForm={config.LoginForm} />
         </div>
         <Liner />
         <FaceBookLogin/>

@@ -74,6 +74,8 @@
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
+  filter: invert(1);
+
 }
 
 .LoginHeader {

@@ -1,0 +1,259 @@
+:root{
+  --Turqoise:#c4f0ff;
+  --DODGER:#0e9cdc;
+  --DRAGON_SKIN:#34495e;
+}
+
+.HeadPayment{
+    color:whitesmoke
+}
+.PaymentBox{
+    height:620px;
+    width:500px;
+    background:var( --DRAGON_SKIN);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border: 0px solid #000000;
+    /* border-right:1px solid var(--PaperColor); */
+    /* border-left:1px solid var(--PaperColor); */
+    font-family:var(--FONT);
+    padding:25px;
+    -webkit-box-shadow: 10px 10px 21px 3px rgba(22,160,133,1);
+    -moz-box-shadow: 10px 10px 21px 3px rgba(22,160,133,1);
+    box-shadow: 10px 10px 21px 3px rgba(22,160,133,1);
+}
+
+
+.PaymentSubmitButton{
+ background:var(--GreenSeaColor);
+ border:none;
+
+ padding:7px;
+ width:94%;
+ font-weight:bolder;
+ color:var(--PaperColor);
+ border-radius:3px;  
+ -webkit-box-shadow: 2px 9px 26px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 9px 26px -6px rgba(0,0,0,0.75);
+box-shadow: 2px 9px 26px -6px rgba(0,0,0,0.75); 
+}
+
+.PaymentCard{
+    height:200px;
+    width:100%;
+}
+
+
+.FormGroup {
+    margin: 0 15px 20px;
+    padding: 0;
+    border-style: none;
+    background-color: var( --DRAGON_SKIN);
+    will-change: opacity, transform;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+      inset 0 1px 0 var(--PaperColor);
+    border-radius: 4px;
+  }
+  
+  .FormRow {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 15px;
+    /* border-top: 1px solid #819efc; */
+  }
+  
+  .StripeElement--webkit-autofill {
+    background: transparent !important;
+  }
+  
+  .StripeElement {
+    width: 100%;
+    height:40px;
+    padding: 12px 12px 12px 0;
+    font-size:24px;
+  }
+
+ 
+.PaymentLabels{
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+  font-weight:500;
+  border-top:2px solid var(--DODGER);
+  margin-right:15px;
+}
+
+  .EmailField>input {
+    width: var(--CommonWidth);
+    /* border: 1px solid var(--Pencil); */
+    border:none;
+    background:var( --DRAGON_SKIN);
+    padding: var(--ButtonPadding);
+    /* font-size: var(--PlaceholderSize); */
+    border-radius: var(--RadiusTextField);
+    margin-right:4px;
+    margin-left:4px;
+  }
+
+  .CityField>input {
+    width: var(--CommonWidth);
+    /* border: 1px solid var(--Pencil); */
+    border:none;
+    background:var( --DRAGON_SKIN);
+    padding: var(--ButtonPadding);
+    /* font-size: var(--PlaceholderSize); */
+    border-radius: var(--RadiusTextField);
+    margin-right:4px;
+    margin-left:4px;
+  }
+
+
+  .AddressField>input {
+    width: var(--CommonWidth);
+    /* border: 1px solid var(--Pencil); */
+    border:none;
+    background:var( --DRAGON_SKIN);
+    padding: var(--ButtonPadding);
+    /* font-size: var(--PlaceholderSize); */
+    border-radius: var(--RadiusTextField);
+    margin-right:4px;
+    margin-left:4px;
+  }
+  .NameField>input {
+    width: var(--CommonWidth);
+    /* border: 1px solid var(--Pencil); */
+    border:none;
+    background:var( --DRAGON_SKIN);
+    padding: var(--ButtonPadding);
+    /* font-size: var(--PlaceholderSize); */
+    border-radius: var(--RadiusTextField);
+    margin-right:4px;
+    margin-left:4px;
+  }
+  .PostalField>input {
+    width: var(--CommonWidth);
+    /* border: 1px solid var(--Pencil); */
+    border:none;
+    background:var( --DRAGON_SKIN);
+    padding: var(--ButtonPadding);
+    /* font-size: var(--PlaceholderSize); */
+    border-radius: var(--RadiusTextField);
+    margin-right:4px;
+    margin-left:4px;
+  }
+
+
+
+  .EmailField>input:focus{
+    outline: 0px; 
+  }
+
+  .CityField>input:focus{
+    outline: 0px; 
+  }
+
+  .NameField>input:focus{
+    outline: 0px;
+ 
+  } 
+    
+  .PostalField>input:focus {
+    outline: 0px;
+    
+  }
+
+  
+  .AddressField>input:focus {
+    outline: 0px;
+    
+  }
+
+  .CityField>input{
+    color:var(--PaperColor);
+  }
+
+  .PostalField>input{
+    color:var(--PaperColor);
+  }
+
+  .AddressField>input{
+    color:var(--PaperColor);
+  }
+  .NameField>input{
+    color:var(--PaperColor);
+  }
+  .EmailField>input{
+    color:var(--PaperColor);
+  }
+  .AddressField>input::-webkit-input-placeholder{
+    color:var(--Turqoise) 
+  }
+  .EmailField>input::-webkit-input-placeholder{
+    color:var(--Turqoise)
+  }
+  .NameField>input::-webkit-input-placeholder{
+    color:var(--Turqoise)
+  }
+  .CityField>input::-webkit-input-placeholder{
+    color:var(--Turqoise) 
+  }
+  .PostalField>input::-webkit-input-placeholder{
+    color:var(--Turqoise) 
+  }
+
+  .FieldFormer:focus-within {
+    border-bottom: 3px solid var(--GreenSeaColor);    
+    
+  }
+
+
+  .ShippingDetailsPage{
+      margin-top:25px;
+      height:65%;
+      width:75%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:var( --DRAGON_SKIN);
+      color:var(--PaperColor);
+      margin-bottom:10px;
+      border-radius:7px;
+   
+     
+      /* border-radius: 103px 16px 37px 37px;
+      -moz-border-radius: 103px 16px 37px 37px;
+      -webkit-border-radius: 103px 16px 37px 37px; */
+  }
+
+
+  .FieldFormer{
+    width:100%;
+    border-bottom:1px solid var(--PaperColor);
+  }
+
+
+
+
+
+
+  .PaymentsHead{
+    margin-top:10px;
+    color:var(--PaperColor);
+    width:100%;
+    border-bottom:1px var(--DODGER) solid;
+    text-align:left;
+  }
+
+
+  .Foot{
+    margin-bottom:8px;
+  }
+
+

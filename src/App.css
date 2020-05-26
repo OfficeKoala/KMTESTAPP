@@ -1,5 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Sen&display=swap");
-.App {
+
+.App{
+  background: var(--AppTheme);
+  height:100vh;
+  display:flex;  
+
+}
+
+.App>hr{
+display: none !important;
+}
+
+.ContentContainer{
+  background: var(--AppTheme);
+}
+
+.AppContainer {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -64,6 +80,14 @@
 }
 
 /* RESPONSIVEWEB ON PHONE VIEW */
+@media (max-width:600px){
+/* .App{
+  background:red;
+}
+ */
 
-@media only screen and (max-width: 600px) {
+
+
+
+
 }
