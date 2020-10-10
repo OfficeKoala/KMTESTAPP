@@ -32,6 +32,8 @@ import { Modal,ButtonToolbar ,Loader,Paragraph} from 'rsuite';
 //   }
 
 class ModalComponent extends React.Component {
+
+
   constructor(props) {
     super(props);
     this.state = {
@@ -86,6 +88,9 @@ class ModalComponent extends React.Component {
       </div>
     );
   }
+
+
+
 }
 
   export default ModalComponent;
